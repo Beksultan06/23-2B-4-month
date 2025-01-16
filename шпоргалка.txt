@@ -1,0 +1,10 @@
+django-admin startproject core . - создает проект под названием core
+
+py .\manage.py makemigrations - собирает все изменени из проекта
+
+py .\manage.py migrate - сохраняет все изменение проекта
+
+py .\manage.py createsuperuser - создает супер пользователя
+
+django-admin startapp имя приложение - создает приложение
+
