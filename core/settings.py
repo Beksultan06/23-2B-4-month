@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
 
     "settings",
+    "back",
+    "ux_ui",
+    "front",
 ]
 
 MIDDLEWARE = [

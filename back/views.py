@@ -7,3 +7,4 @@ def back(request):
       Для ее разработки могут использоваться
       самые разные языки, например, Python, PHP, Go, JavaScript, Java, С#."""
     return HttpResponse(back_info)
+
