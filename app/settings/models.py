@@ -47,3 +47,22 @@ class Info(models.Model):
 
     class Meta:
         verbose_name_plural = 'Информация'
+
+class About(models.Model):
+    title = models.CharField(
+        max_length=155,
+        verbose_name='Заголовок'
+    )
+    title2 =models.CharField(
+        max_length=155,
+        verbose_name='Заголовок 2'
+    )
+    description = models.TextField(
+        verbose_name='Описание'
+    )
+
+    def __str__(self):
+        return self.title
+    
+    class Meta:
+        verbose_name_plural = 'О нас'
